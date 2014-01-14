@@ -1,0 +1,55 @@
+#container {
+	width: 940px;
+	margin: auto;
+	background: grey;
+	border: 1px solid;
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px solid;
+}
+
+#menudiv {
+	border-bottom: 1px solid;
+}
+
+#mainmenu li {
+	display: inline;	
+	padding-right: 200px;
+}
+
+#divleft {
+	width: 313px;
+	float: left;
+}
+
+#divright {
+	width: 623px;
+	float: left;
+	border-left: 1px solid;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+footer {
+	border-top: 1px solid;
+}
+
+#copyright {
+	float: left;
+}
+
+#bottommenu {
+	float: right;
+}
+
+table {
+	padding: 40px;
+}
+
+a:hover {
+	color: red;
+}
