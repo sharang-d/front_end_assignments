@@ -1,6 +1,5 @@
 Changelog:
 
 - Set margin and padding of used elements to 0 [reset]
-- Added a wrapper around the left and right divs
 - Changed class and id names to adhere to CSS naming conventions
 - Added "about.html" and linked pages to it
