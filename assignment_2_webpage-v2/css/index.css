@@ -10,26 +10,26 @@ header {
 	border-bottom: 1px solid;
 }
 
-#menudiv {
+#menuDiv {
 	border-bottom: 1px solid;
 }
 
-#mainmenu li {
+#mainMenu li {
 	display: inline;	
-	padding-right: 200px;
+	margin-right: 200px;
 	font-size: 20px;
 }
 
-#divleft {
+#divLeft {
 	width: 313px;
 	float: left;
 }
 
-#divleft > ul > li {
+#divLeft > ul > li {
 	list-style-type: none;
 }
 
-#divright {
+#divRight {
 	width: 623px;
 	float: left;
 	border-left: 1px solid;
@@ -41,7 +41,7 @@ img {
 	height: 164px; 
 }
 
-.clearfloat {
+.clearFloat {
 	clear: both;
 }
 
@@ -53,7 +53,7 @@ footer {
 	float: left;
 }
 
-#bottommenu {
+#bottomMenu {
 	float: right;
 }
 
@@ -65,10 +65,10 @@ a:hover {
 	color: red;
 }
 
-#bottommenu ul li {
+#bottomMenu ul li {
 	display: inline;
 }
 
-#bottommenu ul {
+#bottomMenu ul {
 	margin: 0px;
 }
