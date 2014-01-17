@@ -1,0 +1,208 @@
+div, body, p, a, button, form, fieldset {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	background:  linear-gradient(gray, black);
+	width: 100%;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.borderRadius {
+	border-radius: 22px;
+}
+
+.topPadding {
+	padding-top: 9px;
+}
+
+.bottomPadding {
+	padding-bottom: 7px;
+}
+
+.rightMargin20 {
+	margin-right: 20px;
+}
+
+
+.topDiv {
+	background: #33aaee;
+	width: 100%;
+}
+
+.hCenter {
+	vertical-align: center;
+	text-align: center;
+}
+
+.bigButton > span {
+	font-size: 26px;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+}
+
+.topButtons {
+	font-family: "Helvetica Neue";
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.btnShadow {
+	box-shadow: inset 1px 1px 1px white, 1px 1px 1px #888;
+}
+
+.bigButton {
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 300px;
+	text-align: center;
+	height: 60px;
+	border-radius: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.dropShadow {
+	box-shadow: 1px 1px 1px #888;
+}
+
+.contentDiv {
+	color: #eeeeee;
+}
+
+.grey {
+	color: #444444;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: ubuntu;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.helvetica {
+	font-family: helvetica;
+}
+
+.helveticaNeue {
+	font-family: "Helvetica Neue";
+}
+
+.pt13 {
+	font-size: 13px;
+}
+
+.pt18 {
+	font-size: 18px;
+}
+
+.textPara {
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+
+.line18 {
+	line-height: 18px;	
+}
+
+.line36 {
+	line-height: 36px;	
+}
+
+
+.loginDiv {
+	border-radius: 5px;
+	background: white;
+	box-shadow: inset 1px 1px 1px #888, 1px 1px 1px #888;
+	padding-left: 20px;
+	padding-bottom: 9px;
+	margin-top: 35px;
+	vertical-align: center;
+}
+
+h2 {
+	font-family: "ubuntu light";
+	font-size: 22px;
+	color: #444444;
+}
+
+.ubuntuMedium {
+	font-family: "ubuntu medium";
+}
+
+.myriad {
+	font-family: Myriad Pro;	
+}
+
+.pt19 {
+	font-size: 20px;
+	line-height: 29px;
+}
+
+.pt24 {
+	font-size: 24px;
+	line-height: 29px;
+}
+
+fieldset > input {
+	width: 240px;
+}
+
+ fieldset > button {
+ 	width: 257px;
+ }
+
+ .topMargin15 {
+ 	margin-top: 15px;
+ }
+
+ .vAlign {
+ 	vertical-align: center;
+ }
+
+ .bottomMargin15 {
+ 	margin-bottom: 15px;
+ }
+
+ .bottomMargin22 {
+ 	margin-bottom: 22px;
+ }
+
+ .textCenter {
+ 	text-align: center;
+ }
+
+ .paraColour {
+ 	color: #666666;
+ }
+
+ h3{
+ 	font-family: helvetica;
+ 	font-size: 24px;
+ 	color: #444444;
+ 	line-height: 36px;
+ }
+
+ .imgSpan {
+ 	margin-top: 10px;
+ }
+
+ .divForBorders {
+ 	border-top: 1px solid #cfcfcf;
+ 	border-bottom: 1px solid #cfcfcf;
+ 	padding-bottom: 50px;
+ 	margin-bottom: 45px;
+ }
+
+ .lastRow {
+ 	margin-bottom: 40px;
+ }
