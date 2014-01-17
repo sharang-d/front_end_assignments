@@ -3,8 +3,15 @@ div, body, p, a, button, form, fieldset {
 	padding: 0px;
 }
 
+@font-face { font-family: "helvetica neue"; src: url('../fonts/helvetica-neue1_0.ttf'); } 
+@font-face { font-family: "helvetica neue"; font-weight:bold; src: url('../fonts/helvetica-neue-bold.ttf'); } 
+@font-face { font-family: "ubuntu light"; src: url('../fonts/Ubuntu-L.ttf'); }
+@font-face { font-family: "ubuntu medium"; src: url('../fonts/Ubuntu-M.ttf'); }
+@font-face { font-family: "ubuntu"; src: url('../fonts/Ubuntu-R.ttf'); }
+@font-face { font-family: "myriad pro"; src: url('../fonts/MyriadPro-Regular.otf'); }
+
 #header {
-	background:  linear-gradient(gray, black);
+	background-image: url("../images/header_background.jpg");
 	width: 100%;
 }
 
@@ -45,12 +52,12 @@ div, body, p, a, button, form, fieldset {
 
 .bigButton > span {
 	font-size: 26px;
-	font-family: "Helvetica Neue";
+	font-family: "helvetica neue";
 	font-weight: bold;
 }
 
 .topButtons {
-	font-family: "Helvetica Neue";
+	font-family: "helvetica neue";
 	font-size: 13px;
 	font-weight: bold;
 }
@@ -68,6 +75,9 @@ div, body, p, a, button, form, fieldset {
 	border-radius: 30px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	border-width: 1px;
+	border-color: black;
+	border-style: ridge;
 }
 
 .dropShadow {
@@ -75,7 +85,7 @@ div, body, p, a, button, form, fieldset {
 }
 
 .contentDiv {
-	color: #eeeeee;
+	background: #eeeeee;
 }
 
 .grey {
@@ -87,6 +97,11 @@ h1 {
 	font-family: ubuntu;
 	margin-top: 60px;
 	margin-bottom: 20px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.paddingTop10 {
+	padding-top: 10px;
 }
 
 .helvetica {
@@ -94,7 +109,7 @@ h1 {
 }
 
 .helveticaNeue {
-	font-family: "Helvetica Neue";
+	font-family: "helvetica neue";
 }
 
 .pt13 {
@@ -139,7 +154,7 @@ h2 {
 }
 
 .myriad {
-	font-family: Myriad Pro;	
+	font-family: "myriad pro";	
 }
 
 .pt19 {
@@ -156,52 +171,52 @@ fieldset > input {
 	width: 240px;
 }
 
- fieldset > button {
- 	width: 257px;
- }
+fieldset > button {
+	width: 257px;
+}
 
- .topMargin15 {
- 	margin-top: 15px;
- }
+.topMargin15 {
+	margin-top: 15px;
+}
 
- .vAlign {
- 	vertical-align: center;
- }
+.vAlign {
+	vertical-align: center;
+}
 
- .bottomMargin15 {
- 	margin-bottom: 15px;
- }
+.bottomMargin15 {
+	margin-bottom: 15px;
+}
 
- .bottomMargin22 {
- 	margin-bottom: 22px;
- }
+.bottomMargin22 {
+	margin-bottom: 22px;
+}
 
- .textCenter {
- 	text-align: center;
- }
+.textCenter {
+	text-align: center;
+}
 
- .paraColour {
- 	color: #666666;
- }
+.paraColour {
+	color: #666666;
+}
 
- h3{
- 	font-family: helvetica;
- 	font-size: 24px;
- 	color: #444444;
- 	line-height: 36px;
- }
+h3{
+	font-family: helvetica;
+	font-size: 24px;
+	color: #444444;
+	line-height: 36px;
+}
 
- .imgSpan {
- 	margin-top: 10px;
- }
+.imgSpan {
+	margin-top: 10px;
+}
 
- .divForBorders {
- 	border-top: 1px solid #cfcfcf;
- 	border-bottom: 1px solid #cfcfcf;
- 	padding-bottom: 50px;
- 	margin-bottom: 45px;
- }
+.divForBorders {
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 50px;
+	margin-bottom: 45px;
+}
 
- .lastRow {
- 	margin-bottom: 40px;
- }
+.lastRow {
+	margin-bottom: 40px;
+}
