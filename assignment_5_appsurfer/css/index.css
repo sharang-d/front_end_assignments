@@ -1,0 +1,203 @@
+div, body, p, a, button, form, fieldset {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face { font-family: "helvetica neue"; src: url('../fonts/helvetica-neue1_0.ttf'); } 
+@font-face { font-family: "helvetica neue"; font-weight:bold; src: url('../fonts/helvetica-neue-bold.ttf'); } 
+@font-face { font-family: "myriad pro"; src: url('../fonts/MyriadPro-Regular.otf'); }
+
+.headerWrapper {
+	width: auto;
+	padding-top: 4px;
+}
+
+.contentWrapper {
+	background: url('../images/background.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #ffc258;
+	padding-bottom: 64px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+ul {
+	display: inline;
+}
+
+.marginTop45 {
+	margin-top: 45px;
+}
+
+.vAlign {
+	vertical-align: middle;
+}
+
+.headerText {
+	color: #444444;
+	font-family: helvetica;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.marginRight7 {
+	margin-right: 7px;
+}
+
+.marginRight34 {
+	margin-right: 34px;
+}
+
+.marginTop12 {
+	margin-top: 12px;
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.marginLeft12 {
+	margin-left: 34px;
+}
+
+.lineHeight40 {
+	line-height: 40px;
+}
+
+.helvetica {
+	font-family: helvetica;
+}
+
+.colorSandbox {
+	color: #222222;
+	text-align: center;
+	font-size: 16px;
+}
+
+.sandboxText {
+	line-height: 18px;
+	font-size: 14px;
+	color: #555555;
+	text-align: center;
+}
+
+.marginTop70 {
+	margin-top: 115px;
+}
+
+.marginLeft27 {
+	margin-left: 27
+}
+
+.signUp {
+	color: #431313;
+	font-family: "helvetica neue";
+	line-height: 52.4px;
+	font-size: 30px;
+	margin-top: 7px;
+	display: inline;
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+input[type="text"] {
+	margin-bottom: 24px;
+	border:1px solid #d89e2e;
+	border-radius: 7px;
+	max-width: 290px;
+	min-width: 290px;
+	font-family: "helvetica neue";
+	font-size: 14px;
+	line-height: 22px;
+	height: 30px;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.marginBottom30 {
+	margin-bottom: 30px;
+}
+
+a > img {
+	margin-top: 10px;
+	margin-bottom: 14px;
+}
+
+.hasAccount {
+	color: #555555
+}
+
+.fontSize14 {
+	font-size: 14px;
+}
+
+.fontSize12 {
+	font-size: 12px;
+}
+
+.loginLink
+{
+	font-size: 14px;
+	line-height: 40px;
+	color: #111111;
+}
+
+.footerWrapper {
+	background-color: #ffffff;
+	width: auto;
+	padding-top: 20px;
+}
+
+.separator1 {
+	color: #a4a4a4;
+}
+
+.separator2 {
+	color: #9a9a9a;
+}
+
+.bottomLinks > li > a {
+	color: #444444;
+}	
+
+.floatRight {
+	float: right;
+}
+
+.copyright {
+	color: #888888;
+	font-size: 12px;
+}
+
+.marginLeftMinus20 {
+	margin-left: -20px;
+}
+
+.shadow1 {
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+.shadow2 {
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.floatLeft {
+	float: left;
+}
+
+.logoDiv {
+	margin-left: 50px;
+}
