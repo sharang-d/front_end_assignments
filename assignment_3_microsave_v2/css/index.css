@@ -80,6 +80,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	-moz-text-shadow: 0 1px 0 2px #149;
 	text-shadow: 0 1px 0 2px #149;
 	font-style: italic;
+	padding-top: 3px;
 }
 
 .menu a:hover {
@@ -325,7 +326,12 @@ li.noBackground {
 	float: left;
 }
 
-.followUs span {
+
+.follow {
+	float: right;
+}
+
+.followText {
 	display: block;
 	float: left;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
@@ -338,6 +344,13 @@ li.noBackground {
 
 .followUs {
 	float: right;
+	padding-bottom: 10px
+}
+
+.followUs li  {
+	list-style: none;
+	display: block;
+	float: left;
 }
 
 .followUs a {
@@ -359,3 +372,5 @@ a#twitterLogo {
 a#linkedinLogo {
 	background-image: url('../images/linkedin_icon.png');
 }
+
+.followUs 
