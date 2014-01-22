@@ -53,6 +53,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 
 .menu > li {
 	display: block;
+	height: 40px;
 	float: left;
 	background-image: url('../images/separator.jpg');
 	background-position: left;
@@ -67,7 +68,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 
 .search {
 	float: right;
-	padding-top: 5px;
+	margin-top: 5px;
 }
 
 .menu a {
@@ -92,7 +93,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	margin-right: 10px;
 	border-radius: 4px;
 	border: 1px solid #0f2356;
-	height: 28px;
+	height: 27px;
 	background-color: #214193;
 	min-width: 170px;
 	max-width: 170px;
@@ -359,7 +360,7 @@ li.noBackground {
 	width: 15px;
 	height: 15px;
 	float: left;
-	margin-left: 3px;
+	margin-left: 5px;
 }
 
 a#fbLogo {
