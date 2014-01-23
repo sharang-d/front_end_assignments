@@ -81,7 +81,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	-moz-text-shadow: 0 1px 0 2px #149;
 	text-shadow: 0 1px 0 2px #149;
 	font-style: italic;
-	padding: 0px 15px 0px 15px;
+	padding: 0px 17px 0px 16px;
 	line-height: 40px;
 }
 
@@ -141,7 +141,8 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	font-size: 13px;
 	line-height: 20px;
 	color: #666666;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
+	letter-spacing: -0.04em;
 }
 
 .announcements {
@@ -155,12 +156,16 @@ h3 {
 	color: #666666;
 	padding-bottom: 11px;
 	border-bottom: 3px solid #eebe00;
-	margin: 27px 0px 19px 0px;
+	margin: 27px 0px 16px 0px;
 	font-weight: normal;
 }
 
 .blue:hover {
 	color: black;
+}
+
+.announcements ul {
+	margin-bottom: 21px;
 }
 
 .announcements ul li {
