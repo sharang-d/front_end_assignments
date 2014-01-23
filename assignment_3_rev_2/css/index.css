@@ -172,7 +172,7 @@ h3 {
 	margin-bottom: 10px;
 }
 
-a.story {
+.announcements p a {
 	display: block;
 	color: #222222;
 	font-style: italic;
@@ -180,11 +180,11 @@ a.story {
 	line-height: 16px;
 }
 
-a.story:hover, a.storyBy:hover {
+.announcements p a:hover, .announcements span a:hover {
 	color: blue;
 }
 
-a.storyBy {
+.announcements span a {
 	color: #333333;
 }
 
@@ -256,6 +256,10 @@ li.lastBox {
 
 #footer {
 	background: url('../images/pattern.jpg') repeat;
+	padding-bottom: 35px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.8) inset;
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.8) inset;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.8) inset;
 }
 
 .footerMenu {
