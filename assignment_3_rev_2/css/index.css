@@ -8,7 +8,7 @@ img {
 }
 
 body {
-	background-color: #f4f5f6;
+	background: #f4f5f6;
 	font-family: georgia;
 	font-size: 13px;
 }
@@ -27,42 +27,39 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	margin: auto;
 }
 
-.logoWrapper > a {
+.logoWrapper {
+	width: 930px;
+	margin: auto;
+	padding: 10px 0px 13px 30px;
+}
+
+.logoWrapper a {
 	display: block;
-	width: 260px;
-	height: 80px;
-	background-image: url('../images/logo.png');
+	width: 239px;
+	height: 57px;
+	background: url('../images/logo.png');
 }
 
 .navWrapper {
-	background-color: #3355aa;
+	background: #3355aa;
 	font-size: 15px;
 	line-height: 36px;
-	color: white;
-	min-height: 40px;
-	max-height: 40px;
+	color: white;	
 	margin-bottom: 35px;
 }
 
 .menu {
-	float:left;	
-	background-image: url('../images/separator.jpg');
-	background-position: right;
-	background-repeat: no-repeat;
+	float: left;	
+	background: url('../images/separator.jpg') right no-repeat;
 }
 
-.menu > li {
+.menu li {
 	display: block;
-	height: 40px;
 	float: left;
-	background-image: url('../images/separator.jpg');
-	background-position: left;
-	background-repeat: no-repeat;
-	padding-left: 15px;
-	padding-right: 15px;
+	background : url('../images/separator.jpg') left no-repeat;
 }
 
-.clearFloat {
+.clear {
 	clear: both;
 }
 
@@ -81,51 +78,60 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	-moz-text-shadow: 0 1px 0 2px #149;
 	text-shadow: 0 1px 0 2px #149;
 	font-style: italic;
-	padding-top: 3px;
+	padding: 0px 15px 0px 15px;
+	line-height: 40px;
 }
 
 .menu a:hover {
-	color: black;
+	color: gray;
 }
 
 .search input {
 	display: block;
 	margin-right: 10px;
 	border-radius: 4px;
+	padding: 10px; 
 	border: 1px solid #0f2356;
-	height: 27px;
+	height: 8px;
 	background-color: #214193;
-	min-width: 170px;
-	max-width: 170px;
+	width: 150px;	
 	float: left;
-	color:#fff; font-style: italic; font-size: 14px;
+	color:#fff; 
+	font-style: italic;
+	font-size: 14px;
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
 	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
 	-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
 }
 
-.search a {
+.search button {
 	display: block;	
 	float: right;
 	width: 40px;
 	height: 30px;
-	background-image: url('../images/search.png');
+    border-radius: 4px;
+    background: #3f66c8 url('../images/search_icon.png') center no-repeat;
+    border: 1px solid #1c3980;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 }
 
 .contentTop > img {
 	float: left;
 	max-width: 424px;
 	max-height: 344px;
-	margin-right: 58px
+	margin: 0px 56px 0px -3px;
 }
 
 .contentTop {
-	margin-bottom: 71px;
+	margin-bottom: 68px;
 }
 
 .whatWeDo {
 	width: 220px;
 	float: left;
+	margin-right: 20px;
 }
 
 .whatWeDo p {
@@ -133,11 +139,11 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	line-height: 20px;
 	color: #666666;
 	text-align: left;
-	margin-bottom: 7px;
+	margin-bottom: 16px;
 }
 
 .announcements {
-	float: right;
+	float: left;
 	width: 220px;
 
 }
@@ -149,12 +155,7 @@ h3 {
 	padding-bottom: 15px;
 	border-bottom: 3px solid #eebe00;
 	margin-bottom: 19px;
-	margin-top: 23px;
-}
-
-h3.blue {
-	color: #3355aa;
-	margin-top: 17px;
+	margin-top: 27px;
 }
 
 .blue:hover {
@@ -163,8 +164,10 @@ h3.blue {
 
 .announcements ul li {
 	list-style: none;
+	background: url('../images/announcements_separator_pattern.jpg') bottom repeat-x;
 	display: block;
-	margin-bottom: 21px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 a.story {
@@ -172,8 +175,7 @@ a.story {
 	color: #222222;
 	font-style: italic;
 	font-size: 13px;
-	line-height: 18px;
-	margin-bottom: 8px;
+	line-height: 16px;
 }
 
 a.story:hover, a.storyBy:hover {
@@ -184,11 +186,16 @@ a.storyBy {
 	color: #333333;
 }
 
-.announcements p {
+.announcements p, .announcements span {
 	line-height: 16px;
 	font-size: 10px;
 	color: #888888;
 }
+
+.announcements p {
+	margin-bottom: 5px;
+}
+
 
 a.viewMore {
 	color: #3355aa;
@@ -207,12 +214,19 @@ h2 {
 	-webkit-text-shadow: 0 1px 0 white;
 	-moz-text-shadow: 0 1px 0 white;
 	text-shadow: 0 1px 0 white;
-	margin-bottom: 27px;
+	margin-bottom: 20px;
 }
 
-.box {
+.contentBottom {
+
+}
+
+.contentBottom li {
+	display: block;
 	float: left;
 	width: 165px;
+	min-height: 200px;
+	list-style: none;
 	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
 	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
@@ -237,7 +251,7 @@ h2 {
 	margin: auto;
 }
 
-.lastBox {
+li.lastBox {
 	margin-right: 0px;
 }
 
@@ -373,4 +387,31 @@ a#twitterLogo {
 
 a#linkedinLogo {
 	background-image: url('../images/linkedin_icon.png');
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
