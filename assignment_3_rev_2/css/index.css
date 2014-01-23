@@ -23,7 +23,7 @@ a {
 input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: georgia;}
 
 #header {
-	margin-bottom: 35px;
+	margin-bottom: 33px;
 }
 
 .container {
@@ -75,7 +75,6 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 .menu a {
 	display: block;
 	height: 40px;
-	float: left;
 	color: white;
 	text-decoration: none;
 	-webkit-text-shadow: 0 1px 0 2px #149;
@@ -125,11 +124,11 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	float: left;
 	max-width: 424px;
 	max-height: 344px;
-	margin: 0px 56px 0px -3px;
+	margin: 0px 57px 0px -3px;
 }
 
 .contentTop {
-	margin-bottom: 68px;
+	margin-bottom: 69px;
 }
 
 .whatWeDo {
@@ -154,7 +153,7 @@ h3 {
 	font-family: "nevis bold";
 	font-size: 16px;
 	color: #666666;
-	padding-bottom: 15px;
+	padding-bottom: 11px;
 	border-bottom: 3px solid #eebe00;
 	margin: 27px 0px 19px 0px;
 	font-weight: normal;
@@ -225,6 +224,7 @@ h2 {
 	width: 165px;
 	min-height: 200px;
 	list-style: none;
+	background: #ffffff;
 	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
 	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15), 1px 1px 1px rgba(0, 0, 0, 0.15);
@@ -233,10 +233,11 @@ h2 {
 	border-radius: 4px;	
 }
 
-.imageHeading {
-	width: 130px;
+.contentBottom div {
+	width: 137px;
 	text-align: center;
-	margin: 9px auto 15px auto;
+	line-height: 18px;
+	margin: 7px auto 15px auto;
 	color: #3355aa;
 }
 
@@ -251,7 +252,7 @@ li.lastBox {
 }
 
 .content {
-	margin-bottom: 38px;
+	margin-bottom: 39px;
 }
 
 #footer {
@@ -277,7 +278,7 @@ li.lastBox {
 	float: left;
 	margin-right: 8px;
 	background: url('../images/bottom_seperator.jpg') right no-repeat; 
-	padding-right: 8px;
+	padding-right: 11px;
 }
 
 .bottomLeftLinks a {
@@ -340,7 +341,7 @@ li.noBackground {
 	-moz-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 	color: #888888;
 	font-size: 11px;
-	margin-right: 14px;
+	margin-right: 10px;
 }
 
 .followUs {
