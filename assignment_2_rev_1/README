@@ -1,5 +1,0 @@
-Changelog:
-
-- Set margin and padding of used elements to 0 [reset]
-- Changed class and id names to adhere to CSS naming conventions
-- Added "about.html" and linked pages to it
