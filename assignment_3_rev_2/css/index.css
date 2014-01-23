@@ -363,15 +363,19 @@ li.noBackground {
 	margin-left: 5px;
 }
 
-a#fbLogo {
+.followUs a {
+	text-indent: -9999px;
+}
+
+a.fbLogo {
 	background: url('../images/fb_icon.png');
 }
 
-a#twitterLogo {
+a.twitterLogo {
 	background: url('../images/twitter_icon.png');
 }
 
-a#linkedinLogo {
+a.linkedinLogo {
 	background: url('../images/linkedin_icon.png');
 }
 
