@@ -63,10 +63,6 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	background : url('../images/separator.jpg') left no-repeat;
 }
 
-.clear {
-	clear: both;
-}
-
 .search {
 	float: right;
 	margin-top: 5px;
@@ -77,12 +73,12 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	height: 40px;
 	color: white;
 	text-decoration: none;
-	-webkit-text-shadow: 0 1px 0 2px #149;
-	-moz-text-shadow: 0 1px 0 2px #149;
-	text-shadow: 0 1px 0 2px #149;
 	font-style: italic;
 	padding: 0px 17px 0px 16px;
 	line-height: 40px;
+	text-shadow: 0px 1px 2px #114499;
+	-webkit-text-shadow: 0px 1px 2px #114499;
+	-moz-text-shadow: 0px 1px 2px #114499;
 }
 
 .menu a:hover {
@@ -91,20 +87,23 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 
 .search input {
 	display: block;
+	width: 150px;	
+	float: left;
 	margin-right: 10px;
 	border-radius: 4px;
 	padding: 10px; 
 	border: 1px solid #0f2356;
 	height: 8px;
-	background: #214193;
-	width: 150px;	
-	float: left;
+	background: #214193;	
 	color:#fff; 
 	font-style: italic;
 	font-size: 14px;
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
 	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
 	-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 6px 0px rgba(0, 0, 0, 0.1) inset;
+	text-shadow: 0px 1px 0px #1F4193;
+	-webkit-text-shadow: 0px 1px 0px #1F4193;
+	-moz-text-shadow: 0px 1px 0px #1F4193;
 }
 
 .search button {
@@ -112,12 +111,12 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: 
 	float: right;
 	width: 40px;
 	height: 30px;
-    border-radius: 4px;
-    background: #3f66c8 url('../images/search_icon.png') center no-repeat;
-    border: 1px solid #1c3980;
-    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
-    -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
-    -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+	border-radius: 4px;
+	background: #3f66c8 url('../images/search_icon.png') center no-repeat;
+	border: 1px solid #1c3980;
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 }
 
 .contentTop > img {
@@ -160,20 +159,15 @@ h3 {
 	font-weight: normal;
 }
 
-.blue:hover {
-	color: black;
-}
-
 .announcements ul {
-	margin-bottom: 21px;
+	margin-bottom: 25px;
 }
 
 .announcements ul li {
 	display: block;
 	list-style: none;
 	background: url('../images/announcements_separator_pattern.jpg') bottom repeat-x;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 18px;
 }
 
 .announcements p a {
@@ -181,7 +175,7 @@ h3 {
 	color: #222222;
 	font-style: italic;
 	font-size: 13px;
-	line-height: 16px;
+	line-height: 18px;
 }
 
 .announcements p a:hover, .announcements span a:hover {
@@ -199,7 +193,7 @@ h3 {
 }
 
 .announcements p {
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
 
 a.viewMore {
@@ -381,6 +375,8 @@ a#linkedinLogo {
 	background: url('../images/linkedin_icon.png');
 }
 
+
+/*  CODE FOR CLEARING FLOAT */
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -390,20 +386,20 @@ a#linkedinLogo {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clear:before,
+.clear:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
 
-.cf:after {
-    clear: both;
+.clear:after {
+	clear: both;
 }
 
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.cf {
-    *zoom: 1;
+.clear {
+	*zoom: 1;
 }
