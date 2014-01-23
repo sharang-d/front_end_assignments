@@ -1,4 +1,4 @@
-body, header, footer, div, ul, li, p, h1, h2, h3, img {
+body, div, ul, li, p, h1, h2, h3, img {
 	margin: 0px;
 	padding: 0px;
 }
@@ -17,10 +17,14 @@ a {
 	text-decoration: none;
 }
 
-::-webkit-input-placeholder { color:#fff; font-style: italic; font-size: 14px;}
-::-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;} /* firefox 19+ */
-:-ms-input-placeholder { color:#fff; font-style: italic; font-size: 14px;} /* ie */
-input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
+::-webkit-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font: georgia;}
+::-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: georgia;} /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; font-style: italic; font-size: 14px; font: georgia;} /* ie */
+input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px; font: georgia;}
+
+#header {
+	margin-bottom: 35px;
+}
 
 .container {
 	width: 940px;
@@ -30,7 +34,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 .logoWrapper {
 	width: 930px;
 	margin: auto;
-	padding: 10px 0px 13px 30px;
+	padding: 10px 0px 13px 30px;	
 }
 
 .logoWrapper a {
@@ -38,14 +42,14 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	width: 239px;
 	height: 57px;
 	background: url('../images/logo.png');
+	text-indent: -9999px;
 }
 
 .navWrapper {
 	background: #3355aa;
 	font-size: 15px;
 	line-height: 36px;
-	color: white;	
-	margin-bottom: 35px;
+	color: white;
 }
 
 .menu {
@@ -93,7 +97,7 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	padding: 10px; 
 	border: 1px solid #0f2356;
 	height: 8px;
-	background-color: #214193;
+	background: #214193;
 	width: 150px;	
 	float: left;
 	color:#fff; 
@@ -129,8 +133,8 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 }
 
 .whatWeDo {
-	width: 220px;
 	float: left;
+	width: 220px;
 	margin-right: 20px;
 }
 
@@ -138,14 +142,12 @@ input:-moz-placeholder { color:#fff; font-style: italic; font-size: 14px;}
 	font-size: 13px;
 	line-height: 20px;
 	color: #666666;
-	text-align: left;
 	margin-bottom: 16px;
 }
 
 .announcements {
 	float: left;
 	width: 220px;
-
 }
 
 h3 {
@@ -154,8 +156,8 @@ h3 {
 	color: #666666;
 	padding-bottom: 15px;
 	border-bottom: 3px solid #eebe00;
-	margin-bottom: 19px;
-	margin-top: 27px;
+	margin: 27px 0px 19px 0px;
+	font-weight: normal;
 }
 
 .blue:hover {
@@ -163,9 +165,9 @@ h3 {
 }
 
 .announcements ul li {
+	display: block;
 	list-style: none;
 	background: url('../images/announcements_separator_pattern.jpg') bottom repeat-x;
-	display: block;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
@@ -196,7 +198,6 @@ a.storyBy {
 	margin-bottom: 5px;
 }
 
-
 a.viewMore {
 	color: #3355aa;
 	font-style: italic;
@@ -215,10 +216,7 @@ h2 {
 	-moz-text-shadow: 0 1px 0 white;
 	text-shadow: 0 1px 0 white;
 	margin-bottom: 20px;
-}
-
-.contentBottom {
-
+	font-weight: normal;
 }
 
 .contentBottom li {
@@ -237,17 +235,14 @@ h2 {
 
 .imageHeading {
 	width: 130px;
-	margin: auto;
 	text-align: center;
-	margin-bottom: 15px;
-	margin-top: 9px;
+	margin: 9px auto 15px auto;
 	color: #3355aa;
 }
 
-.box img {
+.contentBottom li img {
 	max-width: 165px;
 	max-height: 200px;
-	text-align: center;
 	margin: auto;
 }
 
@@ -260,15 +255,12 @@ li.lastBox {
 }
 
 #footer {
-	background-image: url('../images/pattern.jpg');
-	background-repeat: repeat;
+	background: url('../images/pattern.jpg') repeat;
 }
 
-.footer1 {
+.footerMenu {
 	height: 47px;
-	background-image: url('../images/footer_separator.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom;
+	background: url('../images/footer_separator.jpg') bottom no-repeat;
 	margin-bottom: 10px;
 }
 
@@ -277,20 +269,15 @@ li.lastBox {
 }
 
 .bottomLeftLinks li {
-	float:left;
 	display: block;
+	float: left;
 	margin-right: 8px;
-	background-image: url('../images/bottom_seperator.jpg'); 
-	background-repeat: no-repeat;
-	background-position: right;
+	background: url('../images/bottom_seperator.jpg') right no-repeat; 
 	padding-right: 8px;
 }
 
 .bottomLeftLinks a {
-	display: block;
-	float: left;
 	line-height: 47px;
-	height: 47px;
 	font-size: 14px;
 	color: #aaaaaa;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
@@ -310,17 +297,12 @@ li.lastBox {
 	float:left;
 	display: block;
 	margin-right: 8px;
-	background-image: url('../images/bottom_seperator.jpg'); 
-	background-repeat: no-repeat;
-	background-position: right;
+	background: url('../images/bottom_seperator.jpg') right no-repeat; 
 	padding-right: 8px;
 }
 
 .bottomRightLinks a {
-	display: block;
-	float: left;
 	line-height: 47px;
-	height: 47px;
 	font-size: 11px;
 	color: #aaaaaa;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
@@ -334,13 +316,12 @@ li.noBackground {
 	padding-right: 0px;
 }
 
-.copy {
+.copy {	
 	color: #888888;
 	font-size: 11px;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 	-webkit-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 	-moz-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
-	float: left;
 }
 
 .follow {
@@ -378,15 +359,15 @@ li.noBackground {
 }
 
 a#fbLogo {
-	background-image: url('../images/fb_icon.png');
+	background: url('../images/fb_icon.png');
 }
 
 a#twitterLogo {
-	background-image: url('../images/twitter_icon.png');
+	background: url('../images/twitter_icon.png');
 }
 
 a#linkedinLogo {
-	background-image: url('../images/linkedin_icon.png');
+	background: url('../images/linkedin_icon.png');
 }
 
 /**
