@@ -396,6 +396,7 @@ a.linkedinLogo {
 .clear:after {
 	content: " "; /* 1 */
 	display: table; /* 2 */
+	line-height: 0;
 }
 
 .clear:after {
