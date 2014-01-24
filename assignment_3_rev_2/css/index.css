@@ -264,13 +264,14 @@ li.lastBox {
 }
 
 .footerMenu {
-	height: 47px;
+	height: 49px;
 	background: url('../images/footer_separator.jpg') bottom no-repeat;
 	margin-bottom: 10px;
 }
 
 .bottomLeftLinks {
 	float:left;
+	margin-top: -1px;
 }
 
 .bottomLeftLinks li {
@@ -296,6 +297,7 @@ li.lastBox {
 
 .bottomRightLinks {
 	float: right;
+	margin-top: 1px;
 }
 
 .bottomRightLinks li {
