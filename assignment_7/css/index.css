@@ -220,15 +220,6 @@ h2 {
 	margin-right: 0px;
 }
 
-.nav {
-	background-color: #fff;
-	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0), inset 0 -1px #e4e4e4;
-	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0), inset 0 -1px #e4e4e4;
-	box-shadow: 0 1px 4px rgba(0,0,0,0), inset 0 -1px #e4e4e4;
-	border-bottom: 1px solid #EDEEEF;
-	padding-bottom: 15px;
-}
-
 .topDiv {
 	padding-bottom: 11px;
 	border-bottom: 1px solid #ddd;
