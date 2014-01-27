@@ -350,16 +350,15 @@ h4 {
 h5 {
 	font:20px robotolight;
 	color: black;
-	margin-bottom: 13px;
-	margin-top: 5px;
+	margin-bottom: 12px;
 }
 
 .travelOptions li {
 	display: block;
 	border-bottom: 1px solid #f5f5f5;
 	overflow: hidden;
-	padding-top: 19px;
-	padding-bottom: 20px;
+	padding-top: 22px;
+	padding-bottom: 18px;
 }
 
 .travelText {
@@ -375,7 +374,7 @@ h5 {
 .travelText p {
 	font: 11px Tahoma;
 	line-height: 17px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .travelText a {
@@ -387,7 +386,7 @@ h5 {
 }
 
 .travelOptions ul {
-	margin-bottom: 28px;
+	margin-bottom: 20px;
 }
 
 .travelOptions > div {
