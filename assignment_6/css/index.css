@@ -54,11 +54,17 @@ body {
 }
 
 #content {
-	background: #eeeeee;
-	padding-top: 259px;
+	
+	
 	-webkit-box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
 	-moz-box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
 	box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
+}
+
+.grayDiv {
+	padding-top: 259px;
+	background: #eeeeee;
+	padding-bottom: 34px;
 }
 
 .nav {
@@ -76,7 +82,7 @@ body {
 	margin: 15px 0px 15px 0px;
 	padding-left: 24px;
 	font: 14px robotobold;
-	line-height: 30px;
+	line-height: 26px;
 	color: #666666;
 }
 
@@ -127,7 +133,7 @@ a.signIn:hover {
 .nav li {
 	float: left;
 	list-style: none;
-	margin-right: 40px;
+	margin-right: 38px;
 }
 
 a.logo {
@@ -142,6 +148,7 @@ a.logo {
 
 .slider {
 	margin: auto;
+	margin-bottom: 6px;
 }
 
 .gateway {
@@ -156,15 +163,16 @@ a.logo {
 .peoplePowered {
 	margin: auto;
 	font: 30px robotomedium;
-	line-height: 32px;
+	line-height: 30px;
 	color: #444444;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	text-shadow: 0 1px #fff;
 }
 
 .signUpAsWrapper {
 	background: url('../images/sign_up_as_shadow.jpg') center no-repeat;
+	margin-bottom: 29px;
 }
 
 .signUpAsWrapper div {
@@ -179,13 +187,12 @@ a.logo {
 	background: #f7f7f7; 
 	margin: auto;
 	text-align: center;
-	margin-bottom: 60px;
+	
 }
 
 .signUpButtons {
 	margin: auto;
 	display: table;
-	margin-bottom: 9px;
 }
 
 .translationBuyer
@@ -254,7 +261,8 @@ a.logo {
 	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,.4);
 	box-shadow: inset 0 0 6px rgba(0,0,0,.4);
 	padding-top: 35px;
-	padding-bottom: 37px;
+	padding-bottom: 31px;
+	margin-bottom: 42px;
 }
 
 .middleBox li {
@@ -268,8 +276,12 @@ a.logo {
 	margin-right: 0px;
 }
 
+.middleBox ul {
+	margin-left: 7px;
+}
+
 .middleBox img {
-	margin: 0px auto 27px;
+	margin: 0px auto 21px;
 }
 
 .middleBox p, .middleBox a {
@@ -300,24 +312,24 @@ h5 {
 
 .mapDiv {
 	background: white;
-	padding-bottom: 42px;
 }
 
 .map {
 	float: left;
 	width: 620px;
+	margin-right: 48px;
 }
 
 h3 {
 	color: #444444;
 	font: 21px robotomedium;
-	line-height: 39px; 
-	margin: 40px 0 1px;
+	line-height: 29px; 
+	margin: 0px 0 1px;
 }
 
 .providers {
 	float: right;
-	width: 300px;
+	width: 270px;
 }
 
 .providers li {
@@ -349,11 +361,10 @@ h3 {
 
 h4 {
 	font: 18px robotobold;
-	line-height: 26px;
+	line-height: 22px;
 	color: #dd4422;
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 10px;
-	margin-top: 43px;
 	margin-bottom: 15px;
 }
 

@@ -86,7 +86,7 @@ input:-moz-placeholder { color:#989898; font: 11px Tahoma;}
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0), inset 0 -1px #e4e4e4;
 	box-shadow: 0 1px 4px rgba(0,0,0,0), inset 0 -1px #e4e4e4;
 	padding-top: 57px;
-	padding-bottom: 5px;
+	margin-bottom: 6px;
 }
 
 .container {
@@ -107,7 +107,7 @@ h1 {
 
 #header li {
 	display: inline;
-	margin-right: 35px;
+	margin-right: 31px;
 }
 
 #header li:last-child {
@@ -116,7 +116,7 @@ h1 {
 
 #header a {
 	font: 15px robotolight;
-	line-height: 37px;
+	line-height: 50px;
 	color: #1a4da2;
 }
 
@@ -151,15 +151,15 @@ h1 {
 }
 
 .breadcrumbs {
-	margin-bottom: 48px;
+	margin-bottom: 44px;
 }
 
 .breadcrumbs li {
 	display: inline;
 	list-style: none;
-	margin-right: 10px;
+	margin-right: 6px;
 	background: url('../images/breadcrumbs_seperator.png') right top 8px no-repeat;
-	padding-right: 8px;
+	padding-right: 11px;
 }
 
 .breadcrumbs li:last-child {
@@ -181,7 +181,7 @@ h1 {
 	height: 53px;
 	width: 53px;
 	float: left;
-	margin-right: 14px;
+	margin: 2px 10px 0px 4px;
 }
 
 h2 {
@@ -193,18 +193,19 @@ h2 {
 
 .destinationMenu {
 	float: right;
+	margin-top: 27px;
 }
 
 .destinationMenu li {
 	display: inline;
 	list-style: none;
-	margin-right: 35px;
+	margin-right: 24px;
 }
 
 .destinationMenu a {
 	font: 15px robotolight;
 	color: #1a4da2;
-	line-height: 53px;
+	line-height: 15px;
 }
 
 .destinationMenu li:last-child a {
@@ -221,9 +222,9 @@ h2 {
 }
 
 .topDiv {
-	padding-bottom: 11px;
+	padding-bottom: 13px;
 	border-bottom: 1px solid #ddd;
-	margin-bottom: 37px;
+	margin-bottom: 30px;
 }
 
 .infoDiv {
@@ -232,6 +233,7 @@ h2 {
 
 .infoDiv ul {
 	float: left;
+	margin-top: 15px;
 }
 
 .infoDiv li {
@@ -275,7 +277,7 @@ a.howToReach {
 }
 
 .infoDiv li:first-child {
-	border-color: #d54405;
+	border-bottom: 2px solid #D54405;
 }
 
 a.howToReach .text div {
@@ -289,13 +291,13 @@ a.howToReach .text span {
 
 .mapAreaWrapper {
 	float: right;
+	width: 686px;
 }
 
 .mapWrapper {
 	width: 658px;
-	border: 1px solid #dadada;
-	
-	padding: 15px 16px 26px 13px;
+	border: 1px solid #dadada;	
+	padding: 15px 16px 25px 13px;
 	font: 14px robolight;
 	color: #666666;
 }
@@ -321,11 +323,12 @@ a.howToReach .text span {
 h3 {
 	font: 32px robotothin;
 	color: #d54405;
-	text-indent: 15px;
+	text-indent: 8px;
+	margin-bottom: 21px;
 }
 
 iframe.map {
-	margin-bottom: 20px;
+	margin-bottom: 11px;
 }
 
 .travelOptions {
