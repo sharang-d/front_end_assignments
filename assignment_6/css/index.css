@@ -172,7 +172,7 @@ a.logo {
 }
 
 .signUpAsWrapper {
-	background: url('../images/sign_up_as_shadow.jpg') center no-repeat;
+	background: url('../images/sign_up_as_shadow.jpg') center 18px no-repeat;
 	margin-bottom: 29px;
 }
 
@@ -378,7 +378,7 @@ h4 {
 }
 
 .signUpAsWrapper2 {
-	background: url('../images/sign_up_as_shadow_2.jpg') center no-repeat;
+	background: url('../images/sign_up_as_shadow_2.jpg') center 18px no-repeat;
 	margin-bottom: 29px;
 }
 
