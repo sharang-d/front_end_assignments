@@ -222,18 +222,18 @@ h2 {
 }
 
 .topDiv {
-	padding-bottom: 13px;
+	padding-bottom: 11px;
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 30px;
 }
 
 .infoDiv {
-	margin-bottom: 44px;
+	margin-bottom: 35px;
 }
 
 .infoDiv ul {
 	float: left;
-	margin-top: 15px;
+	margin-top: 1px;
 }
 
 .infoDiv li {
@@ -245,8 +245,8 @@ h2 {
 	display: block;
 	width: 225px;
 	overflow: hidden;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 13px;
+	padding-bottom: 12px;
 }
 
 .text {
@@ -266,14 +266,12 @@ h2 {
 	height: 25px;
 	width: 23px;
 	overflow: hidden;
-	margin-left: 11px;
-	margin-right: 17px;
-	margin-top: 7px;
+	margin: 0px 11px 0px 17px;
 	float: left;
 }
 
 a.howToReach {
-	padding-top: 0px;
+	padding-bottom: 6px;
 }
 
 .infoDiv li:first-child {
@@ -283,6 +281,7 @@ a.howToReach {
 a.howToReach .text div {
 	font: 17px robotolight;
 	color: #d54405;
+
 }
 
 a.howToReach .text span {
@@ -305,6 +304,10 @@ a.howToReach .text span {
 .mapWrapper option, .mapWrapper select {
 	font: 14px robotomedium;
 	color: #444444;
+}
+
+.mapWrapper select {
+	margin-left: 22px;
 }
 
 .mapWrapper select, #routePlanner select {
@@ -332,7 +335,7 @@ iframe.map {
 }
 
 .travelOptions {
-	width: 690px;
+	width: 676px;
 	float: right;
 	padding-bottom: 20px;
 }
